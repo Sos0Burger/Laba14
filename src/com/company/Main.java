@@ -35,6 +35,9 @@ public class Main {
                 else if(input.equalsIgnoreCase("check")){
                     System.out.println("x: " + y.x + " y: "+ y.y);
                 }
+                else{
+                    System.out.println("Нет такой команды дурында");
+                }
             }
         }
     }
